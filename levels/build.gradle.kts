@@ -72,7 +72,6 @@ tasks.withType<Jar> {
             "Minecraft-Version" to mojang.versions.minecraft.get(),
             "NeoForge-Version" to neoforged.versions.neoforge.get(),
             "Main-Commit" to gitVersion,
-            "FMLModType" to "GAMELIBRARY",
             "Automatic-Module-Name" to "ganderlevels",
             "MixinConfigs" to "gander_levels.mixins.json"
         )

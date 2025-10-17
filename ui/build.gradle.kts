@@ -82,8 +82,7 @@ tasks.withType<Jar> {
             "Implementation-Timestamp" to now,
             "Minecraft-Version" to mojang.versions.minecraft.get(),
             "NeoForge-Version" to neoforged.versions.neoforge.get(),
-            "Main-Commit" to gitVersion,
-            "FMLModType" to "GAMELIBRARY"
+            "Main-Commit" to gitVersion
         )
 
         attributes(attrs)
